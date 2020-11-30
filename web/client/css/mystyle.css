@@ -1,0 +1,67 @@
+body{
+background-color:#fff;
+}
+.headback {
+  height: 350px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+background-image: url("images/headground.jpg");
+}
+.headback img {
+  position: absolute;
+  top: 20px;
+  display: block;
+  width: auto;
+  max-height: 400px;
+  -webkit-transform: scale(0.8); /*Webkit: Scale down image to 0.8x original size*/
+  -moz-transform: scale(0.8); /*Mozilla scale version*/
+  -o-transform: scale(0.8); /*Opera scale version*/
+  -webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/
+  -moz-transition-duration: 0.5s; /*Mozilla duration version*/
+  -o-transition-duration: 0.5s; /*Opera duration version*/
+  opacity: 1.7; /*initial opacity of images*/
+}
+.main1 img:hover {
+  -webkit-transform: scale(1.0); /*Webkit: Scale up image to 1.2x original size*/
+  -moz-transform: scale(1.0); /*Mozilla scale version*/
+  -o-transform: scale(1.0); /*Opera scale version*/
+  box-shadow: 0px 0px 20px gray; /*CSS3 shadow: 30px blurred shadow all around image*/
+  -webkit-box-shadow: 0px 0px 20px gray; /*Safari shadow version*/
+  -moz-box-shadow: 0px 0px 20px gray; /*Mozilla shadow version*/
+  opacity: 1;
+}
+.headtable {
+	width: 100%;
+}
+
+.headtable td {
+	padding: 10px 50px 25px 135px;
+font-family:facancy
+}
+
+#设计链接的格式
+a {
+	font-size: 12px;
+	color: #0066FF; /*#1E33F7*/
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #0066FF;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #990099; /*颜色变换*/
+}
+
+a:active {
+	text-decoration: none;
+	color: #0066FF;
+}
